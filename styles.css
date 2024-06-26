@@ -1,0 +1,19 @@
+.ascii-art {
+    font-size: 6px;
+    font-family: monospace; 
+    white-space: pre;
+    line-height: 1.4;
+    color: black;
+    background-color: white; 
+    display: inline-block;
+}
+.ascii-art-container {
+    display: flex;
+    justify-content: center; 
+}
+.school-name {
+    display: inline-block;
+    color: black;
+    background-color: white;
+
+}
