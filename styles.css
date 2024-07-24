@@ -1,3 +1,8 @@
+h1 {
+    padding-top: 60px;  /* Adjust the value as needed */
+    padding-bottom: 0px;
+    font-size: 4em;
+}
 .ascii-art {
     font-size: 6px;
     font-family: monospace; 
@@ -15,5 +20,78 @@
     display: inline-block;
     color: black;
     background-color: white;
-
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0;
+    margin-top: 2em; 
 }
+.left-line {
+  border-left: 2px solid white; /* Thin line on the left */
+  padding-left: 20px; /* Left padding */
+}
+
+
+details {
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
+}
+
+details + p {
+    margin-top: 0; /* Remove top margin */
+    padding-top: 0; /* Remove top padding */
+}
+summary {
+    font-style: italic;
+}
+
+.css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 15.5em;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(30, end), blink .5s step-end infinite alternate;
+    animation: type3 3s steps(30, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+
+  
